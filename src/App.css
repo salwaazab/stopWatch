@@ -1,0 +1,51 @@
+
+.App {
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+  }
+
+.Stopwatch {
+        margin-left: 30px;
+        margin-right: 30px;
+        border: 2px solid grey;
+        border-radius: 4px;
+        padding: 20px;
+        width: 400px;
+        background-color: black;
+        box-shadow: 0 3px 6px rgb(12, 12, 12);
+      
+}
+.topwatch-header {
+    color:black;
+}
+.Stopwatch-display{
+    padding: 40 px;
+    color: white;
+    background-color: black;
+
+}
+
+button {
+    border: solid 1px transparent;
+    border-radius: 4px;
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+    margin: 5px  5px;
+
+}
+
+#stop {
+    background-color: red;
+
+}
+
+#start{
+    background-color: green;
+
+}
+
+#reset{
+    background-color: blue;
+}
